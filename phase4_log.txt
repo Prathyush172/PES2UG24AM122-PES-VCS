@@ -1,2 +1,3 @@
 tree linkage added
 parent tracking added
+author and message added
