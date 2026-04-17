@@ -1,2 +1,3 @@
 parsed index structure
 recursive tree logic added
+tree serialization done
