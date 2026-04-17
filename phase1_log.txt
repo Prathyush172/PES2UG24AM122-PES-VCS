@@ -1,2 +1,3 @@
 header logic added
 hash logic added
+storage logic added
