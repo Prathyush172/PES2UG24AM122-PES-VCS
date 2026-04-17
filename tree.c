@@ -13,18 +13,7 @@ extern int object_write(ObjectType type, const void *data, size_t len, ObjectID 
 
 // ─── TEMP STUB (REMOVE IN PHASE 3) ───────────────────────────────────────────
 
-int index_load(Index *idx) {
-    idx->count = 1;
 
-    strcpy(idx->entries[0].path, "test.txt");
-    idx->entries[0].mode = 0100644;
-
-    for (int i = 0; i < HASH_SIZE; i++) {
-        idx->entries[0].hash.hash[i] = i;
-    }
-
-    return 0;
-}
 
 // ─── Mode Constants ─────────────────────────────────────────────────────────
 
